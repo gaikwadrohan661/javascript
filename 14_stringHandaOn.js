@@ -12,13 +12,14 @@ function stringHandson(givenString){
      var resultlength = result.length;
      console.log("After trim string lenth is",resultlength);
 
-      var charatzeroindex = stringHandson.charat(0);
-      console.log("Char at zero index is",charatzeroindex);
+      var charatzeroindex = result.charAt('0');
+      console.log(`Char at zero index is ${charatzeroindex}`);
 
-      var charatlastindex = stringHandson.charat(givenString.length - 1);
-      console.log("Char at last  index is",charatlastindex);
+      var charatlastindex = result.charAt(result.length - 1);
+      console.log(`Char at last  index is ${charatlastindex}`);
 
-     console.log("chatacter at first is", );
+      var charatfirstindex = result.charAt('1');
+     console.log(`Char at last  index is ${charatfirstindex}` );
 
 }
 stringHandson("   Hey you are doing good, keep it up    ");
